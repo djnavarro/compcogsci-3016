@@ -1,0 +1,75 @@
+---
+title: '<div class="jumbotron"><h1 class="title toc-ignore display-3" align="center">Computational Cognitive Science</h1><p class="lead" align="center">Danielle Navarro and Amy Perfors</p></div>'
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    css: mystyle.css
+pagetitle: "Computational Cognitive Science"
+---
+
+```{r,echo=FALSE}
+rm(list=objects()) # start with a clean workspace
+```
+
+From 2010 to 2014, Amy Perfors and Danielle Navarro ran an elective undergraduate class in Computational Cognitive Science, which gave an introduction to computational theories of human cognition.
+
+
+## Course description 
+
+We use formal models from artificial intelligence and mathematical psychology to consider fundamental issues in human knowledge representation, inductive reasoning, learning, decision-making and language acquisition. What kind of informational structures describe the organisation of human knowledge, and what kinds of inferences do they license? How do humans make choices given time constraints, computational limitations, and external costs imposed by the world? What kinds of innate knowledge (if any) must people have? And how can formal models of human cognition inform our understanding of the design of intelligent machines?
+
+https://github.com/djnavarro/compcogsci-3016
+
+## Lecture slides
+
+- Lecture 1: [Introduction ](lecture01.pdf)
+- Lecture 2: [Bayesian inference I](lecture02.pdf)
+- Lecture 3: [Bayesian inference II](lecture03.pdf)
+- Lecture 4: [Generalisation](lecture04.pdf)
+- Lecture 5: [Inductive reasoning](lecture05.pdf)
+- Lecture 6: [Supervised classification I](lecture06.pdf)
+- Lecture 7: [Supervised classification II](lecture07.pdf)
+- Lecture 8: [Unsupervised classification](lecture08.pdf)
+- Lecture 9: [Semi-supervised classification I](lecture09.pdf)
+- Lecture 10: [Semi-supervised classification II](lecture10.pdf)
+- Lecture 11: [Higher knowledge I](lecture11.pdf)
+- Lecture 12: [Higher knowledge II](lecture12.pdf)
+- Lecture 13: [Higher knowledge III](lecture13.pdf)
+- Lecture 14: [Iterated learning I](lecture14.pdf)
+- Lecture 15: [Iterated learning II](lecture15.pdf)
+- Lecture 16: [n-gram models I](lecture16.pdf)
+- Lecture 17: [n-gram models II](lecture17.pdf)
+- Lecture 18: [Hidden Markov models](lecture18.pdf)
+- Lecture 19: [More complex grammars](lecture19.pdf)
+- Lecture 20: [Strong and weak sampling](lecture20.pdf)
+- Lecture 21: [Pedagogical sampling](lecture21.pdf)
+- Lecture 22: [Information search](lecture22.pdf)
+- Lecture 23: [Decision making I](lecture23.pdf)
+- Lecture 24: [Decision making II](lecture24.pdf)
+- Lecture 25: [Speeded decisions I](lecture25.pdf)
+- Lecture 26: [Speeded decisions II](lecture26.pdf)
+- Lecture 27: [Explore-exploit dilemmas](lecture27.pdf)
+- Bonus: [Computational statistics](compstats.pdf)
+
+## Code
+
+- [Battleships problem](code_battleships.zip) (lecture 3)
+- [Lotto problem](code_lotto.zip) (lecture 3)
+- [Animals problem](code_animals.R) (lecture 5)
+- [Unsupervised classification](code_unsupervised.zip) (lecture 8)
+- [Supervised classification](code_classification.zip) (lectures 9-10)
+- [Triage problem](code_triage.zip) (lecture 23)
+- [Sequential sampling models](code_ssm.R) (lectures 25-26)
+- [Markov decision policies](code_mdp.R) (lecture 27)
+- Problem set code ([PS1-Q3](code_ps1_q3.zip), [PS1-Q4](code_ps1_q4.zip), [PS2](code_ps2.zip))
+
+## Other materials
+
+- Problem sets:  [PS1](problemset1.pdf), [PS2](problemset2.pdf), [PS3](problemset3.pdf)
+- Tech note 1: [beta-binomial models](technote_betabinomial.pdf)
+- Tech note 2: [Chinese restaurant processes](technote_chineserestaurantprocesses.pdf)
+- Tech note 3: [Metropolis-Hastings algorithm](technote_metropolishastings.pdf)
+- Tech note 4: [random walk models](technote_randomwalk.pdf)
+- Tech note 5: [the St Petersburg paradox](technote_stpetersburg.pdf)
+

@@ -1,5 +1,5 @@
 ---
-title: '<div class="jumbotron"><h1 class="title toc-ignore display-3" align="center">Computational Cognitive Science</h1><p class="lead" align="center">Danielle Navarro and Amy Perfors</p></div>'
+title: '<div class="jumbotron"><h1 class="title toc-ignore display-3" align="center">Computational Cognitive Science</h1><p class="lead" align="center">Danielle Navarro and Andrew Perfors</p></div>'
 output:
   html_document:
     theme: flatly
@@ -12,7 +12,7 @@ pagetitle: "Computational Cognitive Science"
 rm(list=objects()) # start with a clean workspace
 ```
 
-From 2010 to 2014, Amy Perfors and Danielle Navarro ran an elective undergraduate class in Computational Cognitive Science, which gave an introduction to computational theories of human cognition.
+From 2010 to 2014, Andrew Perfors and Danielle Navarro ran an elective undergraduate class in Computational Cognitive Science, which gave an introduction to computational theories of human cognition.
 
 
 ## Course description 
